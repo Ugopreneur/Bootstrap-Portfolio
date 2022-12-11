@@ -1,0 +1,34 @@
+/* Height styling */
+.height-100 {
+    height: 100px;
+}
+
+/* Background styling */
+.background-red1 {
+    background-color: rgba(162, 114, 114, 0.1);
+}
+
+.background-red10 {
+    background-color: rgba(240, 6, 6, 0.1);
+}
+
+/* Font styling */
+.font-extrasmall {
+    font-size: 0.5em !important;
+}
+
+.font-small {
+    font-size: 0.9em !important;
+}
+
+.font-medium {
+    font-size: 1em !important;
+}
+
+.font-large {
+    font-size: 3.5em !important;
+}
+
+.font-extralarge {
+    font-size: 5em !important;
+}
