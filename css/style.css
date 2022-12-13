@@ -4,8 +4,8 @@
     --dull-white: #e0eae4;
 }
 
-nav {
-    background-color: var(--not-too-black);
+body {
+    background-color: var(--not-too-black) !important;
 }
 
 .navbar-brand {
@@ -15,9 +15,10 @@ nav {
 .nav-link {
     color: var(--dull-white) !important;
 }
-    
-/* Extra dimensions and attributes to modify bootstrap */
 
+.insertColour {
+    color: var(--dull-white) !important;
+}
 
 /* Extra font styling to modify bootstrap typography */
 .font-extrasmall {
@@ -33,14 +34,29 @@ nav {
 }
 
 .font-large {
-    font-size: 3em !important;
+    font-size: 1.5em !important;
 }
 
 .font-extralarge {
     font-size: 5em !important;
 }
 
-/* Footer styling (Adapted from original CSS code by Scanfcode, sourced from https://codepen.io/scanfcode/pen/MEZPNd)  */
+/* Hero section styling */
+#hero-banner {
+    background-image: url("../assets/images/3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Work section styling */
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Footer section styling (Adapted from original CSS code by Scanfcode, sourced from https://codepen.io/scanfcode/pen/MEZPNd)  */
 .site-footer
 {
   background-color:#26272b;
