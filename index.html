@@ -14,9 +14,9 @@
 </head>
 <body>
     <main>
-        <!-- Start of navbar (copied from getbootsrap.com) -->
+        <!-- Start of navbar (copied from https://getbootstrap.com/docs/4.6/components/navbar/) -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand font-large" href="/">
+            <a class="navbar-brand font-large" href="/"> <!-- The href here links back to the same page like a home button -->
               <img src="./assets/images/ugo-nwokoro-avatar.jpg" class="rounded-circle" width="70" height="70" class="d-inline-block align-top" alt="Ugo Nwokoro avatar">
               <span>Bootstrap</span>
             </a>
@@ -47,42 +47,66 @@
                   <a class="nav-link disabled">Disabled</a>
                 </li>
               </ul>
+              <!-- Removed search field in bootstrap navbar-->
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
             </div>
           </nav>
         <!-- End of navbar -->
 
-        <!-- Start of hero section  (jumbotron copied from getboostrap.com) -->
-        <div class="jumbotron">
+        <!-- Start of hero section  (jumbotron copied from https://getbootstrap.com/docs/4.6/components/jumbotron/) -->
+        <section class="jumbotron">
             <h1 class="display-4">Hello, world!</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
+        </section>
         <!-- End of hero section -->
 
-        <!-- Start of work section (grid copied from getboostrap.com) -->
-        <div class="container">
-            <div class="row height-100 background-red1 ">
-              <div class="col h-75">
-                1 of 2
-              </div>
-              <div class="col h-75">
-                2 of 2
-              </div>
-            </div>
-            <div class="row height-100 background-red10"> 
-              <div class="col h-75">
-                1 of 3
-              </div>
-              <div class="col h-75">
-                2 of 3
-              </div>
-              <div class="col h-75">
-                3 of 3
+        <!-- Start of work section (card grid copied from https://getbootstrap.com/docs/4.6/components/card/#using-grid-markup) -->
+        <section class="container">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
               </div>
             </div>
-        </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- End of work section -->
 
         <!-- Start of ? (copied from getboostrap.com) -->
