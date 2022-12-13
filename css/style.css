@@ -197,19 +197,23 @@ body {
 }
 .social-icons a.facebook:hover
 {
-  background-color:#3b5998
+  background-color:#3b5998;
+  box-shadow: 3px 3px #888888;
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#00aced;
+  box-shadow: 3px 3px #888888;
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#007bb6;
+  box-shadow: 3px 3px #888888;
 }
 .social-icons a.dribbble:hover
 {
-  background-color:#ea4c89
+  background-color:#ea4c89;
+  
 }
 @media (max-width:767px)
 {
