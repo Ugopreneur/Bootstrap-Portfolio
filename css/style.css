@@ -1,226 +1,215 @@
 /* Extra colour styling to modify bootstrap's default colours */
-:root {
-    --not-too-black: #161717;
-    --dull-white: #e0eae4;
-}
+    :root {
+        --not-too-black: #161717;
+        --dull-white: #e0eae4;
+    }
 
-body {
-    background-color: var(--not-too-black) !important;
-}
+    /* Overrides bootstrap styling to change all background colours to not-too-black */
+    body {
+        background-color: var(--not-too-black) !important;
+    }
 
-.navbar-brand {
-    color: var(--dull-white) !important;
-}
-
-.nav-link {
-    color: var(--dull-white) !important;
-}
-
-.insertColour {
-    color: var(--dull-white) !important;
-}
+    /* Overrides bootstrap styling to change text colours */
+    .navbar-brand, .nav-link, .insertColour  {
+        color: var(--dull-white) !important;
+    }
 
 /* Extra font styling to modify bootstrap typography */
-.font-extrasmall {
-    font-size: 0.5em !important;
-}
+    .font-extrasmall {
+        font-size: 0.5em !important;
+    }
 
-.font-small {
-    font-size: 0.9em !important;
-}
+    .font-small {
+        font-size: 0.9em !important;
+    }
 
-.font-medium {
-    font-size: 1em !important;
-}
+    .font-medium {
+        font-size: 1em !important;
+    }
 
-.font-large {
-    font-size: 1.5em !important;
-}
+    .font-large {
+        font-size: 1.5em !important;
+    }
 
-.font-extralarge {
-    font-size: 5em !important;
-}
+    .font-extralarge {
+        font-size: 5em !important;
+    }
 
-/* Hero section styling */
-#hero-banner {
-    background-image: url("../assets/images/3.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/* Hero section styling to insert background image*/
+    #hero-banner {
+        background-image: url("../assets/images/3.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
-/* Work section styling */
-.card img {
-    max-height: 210px;
-    object-fit: cover;
-    object-position: top;
-}
+/* Work section styling to fix make card heights all the same and make images look right*/
+    .card img {
+        max-height: 210px;
+        object-fit: cover;
+        object-position: top;
+    }
 
 /* Footer section styling (Adapted from original CSS code by Scanfcode, sourced from https://codepen.io/scanfcode/pen/MEZPNd)  */
-.site-footer
-{
-  background-color:#26272b;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#737373
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-.social-icons a.github:hover
-{
-  background-color:#3b5998;
-  box-shadow: 3px 3px #888888;
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced;
-  box-shadow: 3px 3px #888888;
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6;
-  box-shadow: 3px 3px #888888;
-}
-.social-icons a.instagram:hover
-{
-  background-color:#ea4c89;
-  box-shadow: 3px 3px #888888;
-}
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
+    .site-footer {
+        background-color:#26272b;
+        padding:45px 0 20px;
+        font-size:15px;
+        line-height:24px;
+        color:#737373;
+    }
+    .site-footer hr {
+        border-top-color:#bbb;
+        opacity:0.5
+    }
+    .site-footer hr.small {
+        margin:20px 0
+    }
+    .site-footer h6 {
+        color:#fff;
+        font-size:16px;
+        text-transform:uppercase;
+        margin-top:5px;
+        letter-spacing:2px
+    }
+    .site-footer a {
+        color:#737373;
+    }
+    .site-footer a:hover {
+        color:#3366cc;
+        text-decoration:none;
+    }
+    .footer-links {
+        padding-left:0;
+        list-style:none
+    }
+    .footer-links li {
+        display:block
+    }
+    .footer-links a {
+        color:#737373
+    }
+    .footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+        color:#3366cc;
+        text-decoration:none;
+    }
+    .footer-links.inline li {
+        display:inline-block
+    }
+    .site-footer .social-icons {
+        text-align:right
+    }
+    .site-footer .social-icons a {
+        width:40px;
+        height:40px;
+        line-height:40px;
+        margin-left:6px;
+        margin-right:0;
+        border-radius:100%;
+        background-color:#33353d
+    }
+    .copyright-text {
+        margin:0
+    }
+
+    /* Media queries to ensure footer section rearranges correctly when screen sizes change */
+    
+    /* Responsiveness for smaller laptop screens: */
+    @media (max-width:991px) {
+        .site-footer [class^=col-]
+        {
+        margin-bottom:30px
+        }
+    }
+
+    /* Responsiveness for tablet screens: */
+    @media (max-width:767px) {
+        .site-footer
+        {
+        padding-bottom:0
+        }
+        .site-footer .copyright-text,.site-footer .social-icons
+        {
+        text-align:center
+        }
+    }
+
+    .social-icons
+        {
+        padding-left:0;
+        margin-bottom:0;
+        list-style:none
+        }
+    .social-icons li
+        {
+        display:inline-block;
+        margin-bottom:4px
+        }
+    .social-icons li.title
+        {
+        margin-right:15px;
+        text-transform:uppercase;
+        color:#96a2b2;
+        font-weight:700;
+        font-size:13px
+        }
+    .social-icons a {
+        background-color:#eceeef;
+        color:#818a91;
+        font-size:16px;
+        display:inline-block;
+        line-height:44px;
+        width:44px;
+        height:44px;
+        text-align:center;
+        margin-right:8px;
+        border-radius:100%;
+        -webkit-transition:all .2s linear;
+        -o-transition:all .2s linear;
+        transition:all .2s linear
+        }
+    .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+        {
+        color:#fff;
+        background-color:#29aafe
+        }
+    .social-icons.size-sm a
+        {
+        line-height:34px;
+        height:34px;
+        width:34px;
+        font-size:14px
+        }
+
+    /* Styling to ensure social icons change colour and show box shadow upon hover */
+    .social-icons a.github:hover
+        {
+        background-color:#3b5998;
+        box-shadow: 3px 3px #888888;
+        }
+    .social-icons a.twitter:hover
+        {
+        background-color:#00aced;
+        box-shadow: 3px 3px #888888;
+        }
+    .social-icons a.linkedin:hover
+        {
+        background-color:#007bb6;
+        box-shadow: 3px 3px #888888;
+        }
+    .social-icons a.instagram:hover
+        {
+        background-color:#ea4c89;
+        box-shadow: 3px 3px #888888;
+        }
+
+    /* Responsiveness for mobile phone screens: */
+    @media (max-width:767px)
+        {
+        .social-icons li.title
+        {
+            display:block;
+            margin-right:0;
+            font-weight:600
+        }
+        }
