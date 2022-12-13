@@ -195,7 +195,7 @@ body {
   width:34px;
   font-size:14px
 }
-.social-icons a.facebook:hover
+.social-icons a.github:hover
 {
   background-color:#3b5998;
   box-shadow: 3px 3px #888888;
@@ -210,7 +210,7 @@ body {
   background-color:#007bb6;
   box-shadow: 3px 3px #888888;
 }
-.social-icons a.dribbble:hover
+.social-icons a.instagram:hover
 {
   background-color:#ea4c89;
   box-shadow: 3px 3px #888888;
