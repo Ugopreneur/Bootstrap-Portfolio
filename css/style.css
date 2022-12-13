@@ -51,7 +51,7 @@ body {
 
 /* Work section styling */
 .card img {
-    max-height: 200px;
+    max-height: 210px;
     object-fit: cover;
     object-position: top;
 }
